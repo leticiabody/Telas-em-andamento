@@ -1,0 +1,54 @@
+/*Código para todo o site*/
+*{
+    margin: 0;
+    font-family: arial;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Imagem junto com seu texto figcaption*/
+img{
+    width: 80px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    color: #024959;
+}
+/*Área do conteúdo*/
+form{
+    background: #9cb6d9;
+    padding: 15px;
+}
+/*Texto inicial ao lado logo*/
+figcaption{
+    background: #024959;
+    
+}
+/*Caixas com os titulos: nome,tel, email...*/
+div{
+    margin: 35px;
+    padding: 15px;
+    width:15px 40px;
+    align-items: center;
+}
+
+
+footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #024959;
+    color: #fff;
+    width: auto;
+}
+footer >P{
+    margin-top: 25px;
+}
